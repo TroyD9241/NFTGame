@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import twitterLogo from './assets/twitter-logo.svg';
 import './App.css';
 
+import { CONTACT_ADDRESS } from './Components/constants';
+import NftGame from './utils/NftGame.json'
+import { ethers } from 'ethers'
 import SelectCharacter from './Components/SelectCharacter';
 // Constants
 const TWITTER_HANDLE = '_buildspace';
